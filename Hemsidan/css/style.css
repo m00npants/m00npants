@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    background-image: url('https://r2.fivemanage.com/yjx7UlhDFWOAVEL4qzNzv/images/thumb-1920-564931-enhanced.png'); /* Path to your image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    background-position: center; /* Centers the image */
+}
+
+header {
+    background: #33333300;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    
+}
+
+main {
+    background: #33333300;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#posts article {
+    background: #33333300;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #33333300;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    z-index: 10; /* Ensures the footer stays on top of other elements */
+
+   
+}
+/* Style the header container */
+.main-header {
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center;     /* Center the text vertically */
+    height: 80vh;           /* Make header take full viewport height */
+    text-align: center;      /* Center text within the header */
+}
+
+/* Style the header text */
+.main-header h1 {
+    font-size: 4em;        /* Make the font size large */
+    font-weight: bold;     /* Make the text bold */
+    color: #white;           /* Adjust color as desired */
+    margin: 0;             /* Remove default margin */
+}
+
+
+
+/* Style the button */
+.main-button {
+    position: absolute;  /* Allow the button to be positioned absolutely */
+    top: 500px;           /* Position from the top of the article */
+    left: 900px;          /* Position from the left of the article */
+    padding: 12px 24px; /* Padding for the button */
+    font-size: 1.2em;   /* Font size */
+    color: white;       /* Text color */
+    background-color: #333; /* Button background color */
+    text-decoration: none; /* Remove underline if using <a> */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for the button */
+.main-button:hover {
+    background-color: #1b1b1b; /* Darken button color on hover */
+}
+
